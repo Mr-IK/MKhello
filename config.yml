@@ -1,0 +1,102 @@
+gacha:
+#slotの設定(normalslot)
+#  normal:
+#一回の料金
+#    money: 500
+#何個アイテムを回すか 下のアイテムの設定と同じ数にしないとエラーが出ます
+#    item: 10
+#ここから下アイテムの設定 何かしら絶対に入れてください 入れないとデフォルトのアイテムが回ってきます
+#    item0:
+#      item:339
+#      damage: 0
+#    item1:
+#      item:339
+#      damage: 0
+#    item2:
+#      item:339
+#      damage: 0
+#    item3:
+#      item:339
+#      damage: 0
+#    item4:
+#      item:339
+#      damage: 0
+#    item5:
+#      item:339
+#      damage: 0
+#    item6:
+#      item:339
+#      damage: 0
+#    item7:
+#      item:339
+#      damage: 0
+#    item8:
+#      item:339
+#      damage: 0
+#    item9:
+#      item:339
+#      damage: 0
+#回わってる時に鳴る音  お好みで変えてください
+#    runsound: ENTITY_EGG_THROW
+#外れた時のメッセージを設定してください。『§』でカラーコードも使えます。%myname%でスロットを回したplayer名 %slotname%でスロット名 %syoukin%で現在のstock+賞金の数字と 入れ替わります
+#    losemessage: §6§l『§a§lMKslot§6§l』§7残念…はずれです(´◉◞౪◟◉)
+#当たった時のメッセージを設定してください。『§』でカラーコードも使えます %myname%でスロットを当てたplayer名 %slotname%でスロット名 %syoukin%で現在のstock+賞金の数字と 入れ替わります
+#   winmessage: §6§l『§a§lMKslot§6§l』§6§l§nすっごーい！%myname%が§b§l§n%slotname%スロット§6§l§nに当選して%syoukin%pointGETしたよ！やったね！
+#当たった時に鳴る音  お好みで変えてください
+#    winsound: ENTITY_PLAYER_LEVELUP
+#当たった時にconsoleから実行するコマンド ない場合はnullか空白で 『§』でカラーコードも使えます。%myname%でスロットを回したplayer名 %slotname%でスロット名 %syoukin%で現在のstock+賞金の数字と 入れ替わります
+#    wincommand: say おめでとう！
+#当たる確率 20なら20分の1になります
+#    kakuritu: 20
+#回るスピード お好みで調節してください
+#    spead: 20
+#当たった時にもらえるお金の量 お好みで調節してください
+#    syoukin: 10000
+#外れた時にたまるスタックの量 お好みで調節してください ない場合は0で
+#    stock: 250
+#プラグインの仕様上必要なものです 1個のスロットに1つコピペでいいので入れておいてください 最初はsyoukinと同じ数にしておいてください
+#    goukei: 10000
+  例:
+    item0:
+       item: 339
+       damage: 0
+    item1:
+       item: 388
+       damage: 0
+    item2:
+       item: 266
+       damage: 0
+    item3:
+       item: 133
+       damage: 0
+    item4:
+       item: 264
+       damage: 0
+    item5:
+       item: 143
+       damage: 0
+    item6:
+       item: 293
+       damage: 1
+    item7:
+       item: 293
+       damage: 2
+    item8:
+       item: 293
+       damage: 3
+    item9: 
+       item: 293
+       damage: 4
+    money: 500
+    item: 10
+    runsound: ENTITY_EGG_THROW
+    losemessage: §6§l『§a§lMKslot§6§l』§7残念…はずれです(´◉◞౪◟◉)
+    winmessage: §6§l『§a§lMKslot§6§l』§6§l§nすっごーい！%myname%が§b§l§n%slotname%スロット§6§l§nに当選して%syoukin%MGETしたよ！やったね！
+    winsound: ENTITY_PLAYER_LEVELUP
+    wincommand: say おめでとう！
+    kakuritu: 20
+    spead: 20
+    syoukin: 10000
+    stock: 250
+    goukei: 10000
+    

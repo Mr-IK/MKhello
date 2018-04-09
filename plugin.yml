@@ -1,0 +1,8 @@
+name: MKhello
+version: 1.0.0
+main: mkhello.MKhello
+commands:
+  hi:
+    description: MKallcommand.
+    usage: /<command>
+    default: true
